@@ -26,15 +26,17 @@ Repositório criado com o intuito de compartilhar meu aprendizado através de de
       <b>Iuri Silva</b>
     </sub>
   </a>
+</td> 
+         <td align="center">
+  <a href="https://github.com/rafaballerini">
+    <img src="https://avatars.githubusercontent.com/u/54322854?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+    <sub>
+      <b>Rafa Ballerini</b>
+    </sub>
+  </a>
 </td>
-    
-        <td align="center">
-      <a href="https://github.com/rafaballerini">
-        <img src="https://avatars.githubusercontent.com/u/54322854?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Rafa Ballerini</b>
-        </sub>
-      </a>
-    </td>
-    </tr>    
+</tr>
 </table>
+
+
+
