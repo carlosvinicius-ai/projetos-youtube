@@ -19,16 +19,15 @@ Repositório criado com o intuito de compartilhar meu aprendizado através de de
         </sub>
       </a>
     </td>
-        
-        <td align="center">
-      <a href="https://github.com/iuricode">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
-        <sub>
-          <b>Iuri Silva</b>
-        </sub>
-      </a>
-    </td>
-        
+            <td align="center">
+  <a href="https://github.com/iuricode">
+    <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+    <sub>
+      <b>Iuri Silva</b>
+    </sub>
+  </a>
+</td>
+    
         <td align="center">
       <a href="https://github.com/rafaballerini">
         <img src="https://avatars.githubusercontent.com/u/54322854?v=4" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
@@ -39,4 +38,3 @@ Repositório criado com o intuito de compartilhar meu aprendizado através de de
     </td>
     </tr>    
 </table>
-
