@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Desafio de criar uma vitrine de Jordan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <title>Codelandia - Desafio 02 (Jordan Shoes)</title>
+</head>
+<body>
+    
+    <header class="header">
+        <h2>Ganhe R$ 10,00 de desconto no frete</h2>
+    </header>
+
+    <main class="main">
+        <h1 class="title">Jordan Shoes</h1>
+
+        <section class="top">
+            <div class="top-text">
+                <h2 class="title-secundario">A melhor loja de Jordan</h2>
+                <div id="typed-strings">
+                    <p class="description">
+                      O Tênis Jordan é fruto de uma velha e forte parceria
+                      entre a Nike e o jogador Michael Jordan.
+                    </p>
+                </div>
+                <p id="typed"></p>
+            </div>
+        </section>
+
+        <section class="tenis">
+            <div class="tenis-text">
+                <h2>Destaques</h2>
+                <p>Frete grátis e chinelo de brinde é aqui, aproveite por tempo limitado. </p>
+            </div>
+
+            <div class="tenis-image">
+                <div class="card">
+                    <img src="img/1.png" alt="Tenis Jordan">
+                </div>
+                <div class="card">
+                    <img src="img/2.png" alt="Tenis Jordan">
+                </div>
+                <div class="card">
+                    <img src="img/3.png" alt="Tenis Jordan">
+                </div>
+                <div class="card">
+                    <img src="img/4.png" alt="Tenis Jordan">
+                </div>
+                <div class="card">
+                    <img src="img/5.png" alt="Tenis Jordan">
+                </div>
+                <div class="card">
+                    <img src="img/6.png" alt="Tenis Jordan">
+                </div>
+                <div class="card">
+                    <img src="img/7.png" alt="Tenis Jordan">
+                </div>
+                <div class="card">
+                    <img src="img/8.png" alt="Tenis Jordan">
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <h2> &copy; feito com carinho por <a href="https://www.linkedin.com/in/carlosvini/">Carlos Vinicius</a></h2>
+    </footer>
+
+</body>
+
+    <script>
+
+        var typed = new Typed('#typed', {
+            stringsElement: '#typed-strings',
+            typeSpeed: 40,
+            showCursor : false ,
+        });
+
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+        
+        ScrollReveal().reveal('.title', { delay: 200 });
+        ScrollReveal().reveal('.tenis-text', { delay: 200 });
+        ScrollReveal().reveal('.card', { delay: 400 });
+    </script>
+
+</html>
