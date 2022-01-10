@@ -13,5 +13,5 @@ Repositório Criado para os desafios propostos por <a href="https://github.com/i
 </p>
 <h2><a name="desafios">🛠️ Desafios</a></h2>
 
-- <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-01%20(blog)">Desafio 01 - Blog</a>
-- <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-02%20(Jordan%20Shoes)">  Desafio 02 - JordanShoes</a>
+- <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-01-Blog">Desafio 01 - Blog</a>
+- <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-02-JordanShoes">  Desafio 02 - JordanShoes</a>
