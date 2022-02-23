@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Merriweather:wght@300;400;700;900&display=swap');
+
+$bgSite: #d7d4ff;
+$buttonColor: #6c63ff;
+$hover: #4a44c2;
+$white: #ffffff;
+$white300: #f9f9f9;
+$title: #2b2b2b;
+$text: #555555;
+$red: #FF6363;
+
+$Lato: 'Lato', sans-serif;
+$Merriweather :'Merriweather', serif;
+
+@function calculateRem($size){
+    @return $size / 16px * 1rem;
+}
+
+@mixin font-size($size) {
+    font-size: calculateRem($size);
+}
+
+@mixin for-tablet-only {
+    @media screen and (min-width: 768px) and (max-width: 1024px) {
+        @content;
+    }
+}
+
+html, body{
+    font-family: $Lato;
+}
+
+.header{
+
+    background-color: $bgSite;
+
+    &-container{
+        min-height: 60vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    &-info{
+        max-width: 400px;
+        font-family: $Lato
+    }
+
+    &-title{
+        @include font-size(36px);
+        font-family: $Merriweather;
+        font-weight: 400;
+        color: $title;
+        padding: 20px 0;
+        line-height: 1.2;
+    }
+
+    &-text{
+        @include font-size(18px);
+        color: $text;
+        font-weight: 400;
+        text-align: left;
+        line-height: 1.2;
+        padding: 0 0 20px;
+    }
+
+    &-btn{
+        width: 150px;
+        height: 50px;
+        background-color: $buttonColor;
+        color: $white;
+        @include font-size(20px);
+        font-weight: 700;
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+        transition: .6s;
+        cursor: pointer;
+
+            @include for-tablet-only(){
+                margin-bottom: 100px;
+            }
+
+            &:hover{
+                background-color: $hover;
+            }
+    }
+
+    &-img{
+        width: 350px;
+
+            @include for-tablet-only(){
+                margin-bottom: 50px;
+            }
+    }
+
+}
+
+.main{
+    
+    background-color: $white300;
+
+    &-container{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+        padding: 70px 0;
+    }
+
+    &-card{
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        width: 340px;
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+        margin: 0 30px 70px;
+        
+    }
+
+    &-title{
+        font-family: $Merriweather;
+        @include font-size(24px);
+        font-weight: 700;
+        color: $title;
+        padding: 30px;
+    }
+
+    &-text{
+        @include font-size(18px);
+        color: $text;
+        text-justify: left;
+        padding: 0 30px;
+    }
+
+    &-link{
+        @include font-size(18px);
+        color: $buttonColor;
+        text-justify: left;
+        padding: 30px;
+
+            &:hover{
+                color: $hover;
+            }
+    }
+
+    &-card-red{
+        height: 220px;
+    }
+}
+
+.footer{
+
+    background-color: $bgSite;
+
+    &-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        // width: 90%;
+        margin: 0 auto;
+        padding: 70px 0;
+    }
+
+    &-title{
+        color: $title;
+        font-family: $Merriweather;
+        @include font-size(32px);
+        font-weight: 400;
+        padding-bottom: 5%;
+    }
+
+    &-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    &-input{
+        font-family: $Lato;
+        border: 0;
+        color: $title;
+        border-radius: 5px;
+        width: 50%;
+        height: 65px;
+        margin: 15px 0;
+        padding: 0 15px;
+        outline: none;
+        @include font-size(18px);
+
+            &::placeholder{
+                color: $text;
+            }
+    }
+
+    &-textarea{
+        font-family: $Lato;
+        border: 0;
+        border-radius: 5px;
+        width: 50%;
+        height: 165px;
+        @include font-size(18px);
+        padding: 15px;
+        margin: 15px 0;
+        outline: none;
+        color: $title;
+        resize: none;
+
+            &::placeholder{
+                color: $text;
+            }
+    }
+
+    &-btn{
+        color: $white300;
+        background-color: $buttonColor;
+        box-shadow: 0px 5px 5px rgba(23, 23, 23, 0.1);
+        width: 52%;
+        height: 65px;
+        padding: 15px;
+        border: 0;
+        border-radius: 5px;
+        @include font-size(20px);
+        font-weight: 700;
+        cursor: pointer;
+
+            &:hover{
+                background-color: $hover;
+            }
+    }
+
+    &-description{
+        color: $text;
+        padding-top: 30px;
+        @include font-size(18px);
+
+        & a{
+            color: $title;
+        }
+
+    }
+}

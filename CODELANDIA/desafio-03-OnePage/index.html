@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Codelandia - Desafio 03 (One Page)</title>
+    <link rel="shortcut icon" type="image-x/png" href="img/image.ico">
+</head>
+<body>
+    
+    
+
+    <header class="header">
+        
+        <div class="header-container">
+
+            <section class="header-info">
+                <h1 class="header-title">De um presente a quem você gosta</h1>
+                <p class="header-text">Já pensou poder comprar aquele jogo que a pessoa que você gosta fala tanto? Pois chegou a hora de comprar o tão sonhado Game e se divertir junto a ela com nossas promoções especiais</p>
+                <button class="header-btn" onclick="rolar_para('#games')">Games</button>
+            </section>
+            <img src="img/image.svg" alt="Caixa de presente" class="header-img">
+
+        </div>
+        
+    </header>
+
+    <main class="main">
+        <section id="games" class="main-container">
+
+            <div class="main-card">
+                <img src="https://cdn.akamai.steamstatic.com/steam/bundles/5699/qipqf90z2z7h4x3i/header_586x192_brazilian.jpg?t=1611191314" alt="Jogo GTA" class="main-card-red" />
+                <h2 class="main-title">GTA V</h2>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                <a class="main-link" target="_blank" href="https://store.steampowered.com/bundle/5699/Grand_Theft_Auto_V_Edio_Premium/">Comprar</a>
+            </div>
+
+            <div  class="main-card">
+                <img src="https://cdn.akamai.steamstatic.com/steam/apps/1506830/header.jpg?t=1644868577" alt="Jogo FIFA22" class="main-card-red" />
+                <h2 class="main-title">FIFA 22</h2>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                <a class="main-link" target="_blank" href="https://store.steampowered.com/app/1506830/FIFA_22/">Comprar</a>
+            </div>
+
+            <div class="main-card">
+                <img src="https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg?t=1608624324" alt="Jogo Stardew Valley" class="main-card-red" />
+                <h2 class="main-title">Stardew Valley</h2>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                <a class="main-link" target="_blank" href="https://store.steampowered.com/app/413150/Stardew_Valley/">Comprar</a>
+            </div>
+
+            <div class="main-card">
+                <img src="https://cdn.akamai.steamstatic.com/steam/apps/1145360/header.jpg?t=1624463563" alt="Jogo Hades" class="main-card-red">
+                <h2 class="main-title">Hades</h2>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                <a class="main-link" target="_blank" href="https://store.steampowered.com/app/1145360/Hades/">Comprar</a>
+            </div>
+
+            <div class="main-card">
+                <img src="https://cdn.akamai.steamstatic.com/steam/apps/320240/header.jpg?t=1575388728" alt="Jogo We Happy Few" class="main-card-red" />
+                <h2 class="main-title">We Happy Few</h2>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                <a class="main-link" target="_blank" href="https://store.steampowered.com/app/320240/We_Happy_Few/">Comprar</a>
+            </div>
+
+            <div class="main-card">
+                <img src="https://cdn.akamai.steamstatic.com/steam/apps/1222670/header.jpg?t=1644336035" alt="Jogo The Sims" class="main-card-red" />
+                <h2 class="main-title">The Sims</h2>
+                <p class="main-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in neque et nisl.</p>
+                <a class="main-link" target="_blank" href="https://store.steampowered.com/app/1222670/The_Sims_4/">Comprar</a>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+
+        <section class="footer-container">
+
+            <h2 class="footer-title">Entre em Contato</h2>
+
+            <form action="mailto:cvinicius32@hotmail.com" class="footer-form">
+
+                <input type="text" class="footer-input" placeholder="Nome" required />
+                <input type="email" class="footer-input" placeholder="E-mail" required />
+                <input type="tel" class="footer-input" placeholder="Telefone" required>
+                <textarea class="footer-textarea" cols="30" rows="10" placeholder="Mensagem..." required></textarea>
+                <button type="submit" class="footer-btn">Enviar Mensagem</button>
+
+            </form>
+
+            <p class="footer-description">@ 2022 - Desenvolvido por <a target="_blank" href="https://github.com/carlosvinicius-ai">Carlos Vinícius</a></p>
+
+        </section>
+    </footer>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/index.js"></script>
+
+</body>
+</html>
