@@ -26,6 +26,12 @@ $Merriweather :'Merriweather', serif;
     }
 }
 
+@mixin for-phone-only {
+    @media screen and (max-width: 768px) {
+        @content;
+    }
+}
+
 html, body{
     font-family: $Lato;
 }
@@ -104,13 +110,22 @@ html, body{
     background-color: $white300;
 
     &-container{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
         align-items: center;
         justify-content: space-around;
         flex-wrap: wrap;
         width: 90%;
         margin: 0 auto;
         padding: 70px 0;
+
+        @include for-tablet-only(){
+            display: flex;
+        }
+
+        @include for-phone-only(){
+            display: flex;
+        }
     }
 
     &-card{

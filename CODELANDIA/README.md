@@ -13,11 +13,11 @@ Repositório Criado para os desafios propostos por <a href="https://github.com/i
 </p>
 <h2><a name="desafios">🛠️ Desafios</a></h2>
 
-- [x] <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-01-Blog">Desafio 01 - Blog</a>
+- :white_check_mark: <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-01-Blog">Desafio 01 - Blog</a>
 
-- [x] <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-02-JordanShoes">  Desafio 02 - JordanShoes</a>
+- :white_check_mark: <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-02-JordanShoes">  Desafio 02 - JordanShoes</a>
 
-- [x] <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-03-OnePage">  Desafio 03 - One Page</a>
+- :white_check_mark: <a href="https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/CODELANDIA/desafio-03-OnePage">  Desafio 03 - One Page</a>
 
 - [ ] <a href="#">  Desafio 04 - Login</a>
 
@@ -41,7 +41,7 @@ Repositório Criado para os desafios propostos por <a href="https://github.com/i
 
 - [ ] <a href="#">  Desafio 14 - HelpDog</a>
 
-- [ ] <a href="#">  Desafio 15 - README</a>
+- :white_check_mark: <a href="https://github.com/carlosvinicius-ai">  Desafio 15 - README</a>
 
 - [ ] <a href="#">  Desafio 16 - Feliz Natal</a>
 
