@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.main{
+    margin-top: 5%;
+}
+
+.container{
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.card{
+    margin: 0 auto;
+    padding: 24px 0;
+    max-width: 350px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 15px;
+    box-shadow: 0px 20px 25px 15px rgba(0, 0, 0, 0.05),
+                0px 40px 30px 15px rgba(0, 0, 0, 0.1);;
+}
+
+.img-nft{
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;   
+    cursor: pointer;
+}
+
+.img-nft::after{
+    background: hsla(178, 100%, 50%, 0.5);
+    content: url(../images/icon-view.svg);
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.img-nft:hover::after{
+    opacity: 1;
+}
+
+.img-nft img{
+    width: 100%;
+    display: block;
+}
+
+.title{
+    text-align: start;
+    color: hsl(0, 0%, 100%);
+    padding: 20px 0;
+    font-weight: 600;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.title:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.description{
+    text-align: start;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+
+.cash{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.value{
+    display: flex;
+    align-items: center;
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+}
+
+.value img{
+    margin-right: 3px;
+}
+
+.days{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.days img{
+    margin-right: 3px;
+}
+
+.create{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 0 10px;
+}
+
+.avatar-text{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.avatar-text a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.avatar-text a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar{
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+    width: 32px;
+    margin-right: 4px;
+}
+
+.attribution{
+    margin-top: 15px;
+    font-size: 11px; 
+    text-align: center; 
+    color: hsl(215, 51%, 70%);
+}
+
+.attribution a{ 
+    color: hsl(228, 45%, 44%); 
+    text-decoration: none;
+    transition: linear .3s;
+}
+
+.attribution a:hover{
+    color: hsl(178, 100%, 50%);
+}
