@@ -50,5 +50,3 @@ Amostra de um código que me gerou desafio:
 - Website - [Carlos Vinícius](https://projeto-portifolio.vercel.app)
 - Frontend Mentor - [@carlosvinicius-ai](https://www.frontendmentor.io/profile/carlosvinicius-ai)
 - Linkedin - [@carlos/vini](https://www.linkedin.com/in/carlosvini/)
-
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
