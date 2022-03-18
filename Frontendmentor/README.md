@@ -4,4 +4,4 @@ Repositório Criado para os desafios do site [Frontend Mentor](https://www.front
 
 ## 🛠️Desafios Feitos
 
-- [NFT preview card component]()
+- [NFT preview card component](https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/Frontendmentor/nft-preview-card)

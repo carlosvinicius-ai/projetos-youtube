@@ -9,8 +9,8 @@ Essa é uma solução para o [NFT preview card component challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Codigo](#)
-- Live Site URL: [Site](#)
+- Solution URL: [Codigo](https://github.com/carlosvinicius-ai/projetos-youtube/tree/master/Frontendmentor/nft-preview-card)
+- Live Site URL: [Site](https://carlosvinicius-ai.github.io/projetos-youtube/Frontendmentor/nft-preview-card/)
 
 ## Meu Progresso
 
@@ -50,3 +50,5 @@ Amostra de um código que me gerou desafio:
 - Website - [Carlos Vinícius](https://projeto-portifolio.vercel.app)
 - Frontend Mentor - [@carlosvinicius-ai](https://www.frontendmentor.io/profile/carlosvinicius-ai)
 - Linkedin - [@carlos/vini](https://www.linkedin.com/in/carlosvini/)
+
+[⬆ Voltar ao topo](#nome-do-projeto)<br>
